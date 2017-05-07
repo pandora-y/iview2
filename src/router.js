@@ -11,7 +11,7 @@ const routers = [
         meta: {
             title: '用户登录'
         },
-        component: (resolve) => require(['./views/login.vue'], resolve)
+        component: (resolve) => require(['./iviews/login.vue'], resolve)
     }
     //, {
     //    path: '/customManage',
